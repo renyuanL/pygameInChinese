@@ -122,8 +122,8 @@ def 主函式():
     糖果圖片 = []
     for i in 範圍(1, 糖果圖片總數+1):
 
-        #gemImage = pygame.image.load('candy%s.png' % i)
-        gemImage = pygame.image.load('gem%s.png' % i) # ry 修改
+        gemImage = pygame.image.load('candy%s.png' % i)
+        #gemImage = pygame.image.load('gem%s.png' % i) # ry 修改
 
         if gemImage.get_size() != (糖果圖片大小, 糖果圖片大小):
             gemImage = pygame.transform.smoothscale(gemImage, (糖果圖片大小, 糖果圖片大小))
