@@ -9,6 +9,9 @@
 # By Al Sweigart al@inventwithpython.com
 # http://inventwithpython.com/pygame
 # Released under a "Simplified BSD" license
+#
+# http://inventwithpython.com/pygame/chapter4.html
+#
 
 import pygame, sys, random
 from pygame.locals import *
